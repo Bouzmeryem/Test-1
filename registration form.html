@@ -10,51 +10,59 @@
 
 <body>
     <h1>Registration form</h1>
-    <div>
-        <form>
+
+    <form>
+        <div>
             <label for="first_name">First Name</label>
             <input type="text" id="first_name">
-        </form>
-    </div>
+        </div>
 
-    <div>
-        <form>
+        <div>
             <label for="last_name">Last name</label>
             <input type="text" id="last_name">
-        </form>
-    </div>
+        </div>
 
-    <div>
-        <form>
+        <div>
             <label for="nick_name">Nick Name</label>
             <input type="text" id="nick_name">
-        </form>
-    </div>
+        </div>
 
-    <div>
-        <form>
+        <div>
             <label for="email">E-mail</label>
             <input type="text" id="email">
-        </form>
-    </div>
+        </div>
 
-    <div>
-        <form>
+        <div>
             <label for="password">Password</label>
             <input type="password" id="password">
-        </form>
-    </div>
-    <div>
-        <form>
+        </div>
+        <div>
             <label for="date_of_birth">Date of Birth</label>
-            <input type="text" id="date_of_birth">
-        </form>
-    </div>
-    <div>
-      <section>
-        <label for="genre">Genre</label>
-      </section>
-    </div>
+            <input type="date" id="date_of_birth">
+        </div>
+        <div>
+            <p>Gender</p>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="others">
+            <label for="others">Others</label>
+        </div>
+        <div>
+            <label for="mobile">Mobile</label>
+            <input type="tel" id="mobile">
+        </div>
+        <div>
+            <label for="address">Adress</label>
+            <textarea  id="address" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button>submit</button>
+            <button>reset</button>
+        </div>
+    </form>
+
 
 </body>
 
